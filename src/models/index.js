@@ -1,0 +1,1 @@
+// untuk struktur database yang dibuat
