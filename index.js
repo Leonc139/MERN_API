@@ -94,7 +94,7 @@ app.use((error, req, res, next) => {
 // mengkoneksikan node js ke mongoDB
 mongoose
   .connect(
-    "mongodb+srv://<username>:<password>@cluster0.jmrbkd1.mongodb.net/<dbname>?retryWrites=true&w=majority"
+    "mongodb+srv://leo:lnc1309@cluster0.jmrbkd1.mongodb.net/blog?retryWrites=true&w=majority"
   )
   // jika then berhasil, maka akan menjalankan server
   .then(() => {
